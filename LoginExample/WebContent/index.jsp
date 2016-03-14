@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Login Example</title>
+<title>Mitfahrzentrale</title>
 </head>
 <body>
         <form method="post" action="login.jsp">
@@ -12,24 +12,23 @@
             <table border="2" width="30%" cellpadding="3">
                 <thead>
                     <tr>
-                        <th colspan="2">Login Example</th>
+                        <th colspan="2">Mitfahrzentrale</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>User Name</td>
+                        <td>Benutzername</td>
                         <td><input type="text" name="username" value="" /></td>
                     </tr>
                     <tr>
-                        <td>Password</td>
+                        <td>Passwort</td>
                         <td><input type="password" name="password" value="" /></td>
                     </tr>
                     <tr>
                         <td><input type="submit" value="Login" /></td>
-                        <td><input type="reset" value="Reset" /></td>
                     </tr>
                     <tr>
-                        <td colspan="2">New User <a href="registerpage.jsp">Register Here</a></td>
+                        <td colspan="2"><a href="registerpage.jsp">Neu Registrieren</a></td>
                     </tr>
                 </tbody>
             </table>

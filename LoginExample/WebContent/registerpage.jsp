@@ -12,16 +12,16 @@
             <table border="1" width="30%" cellpadding="5" bgcolor="pink">
                 <thead>
                     <tr>
-                        <th colspan="2">Registration Page</th>
+                        <th colspan="2">Registrierung</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>First Name</td>
+                        <td>Vorname</td>
                         <td><input type="text" name="firstname" value="" /></td>
                     </tr>
                     <tr>
-                        <td>Last Name</td>
+                        <td>Familienname</td>
                         <td><input type="text" name="lastname" value="" /></td>
                     </tr>
                     <tr>
@@ -29,19 +29,18 @@
                         <td><input type="text" name="email" value="" /></td>
                     </tr>
                     <tr>
-                        <td>User Name</td>
+                        <td>Benutzername</td>
                         <td><input type="text" name="username" value="" /></td>
                     </tr>
                     <tr>
-                        <td>Password</td>
+                        <td>Passwort</td>
                         <td><input type="password" name="password" value="" /></td>
                     </tr>
                     <tr>
-                        <td><input type="submit" value="Submit" /></td>
-                        <td><input type="reset" value="Reset" /></td>
+                        <td><input type="submit" value="Absenden" /></td>
                     </tr>
                     <tr>
-                        <td colspan="2">Already registered?<a href="index.jsp">Login Here</a></td>
+                        <td colspan="2">Bereits registriert?<a href="index.jsp">Hier anmelden</a></td>
                     </tr>
                 </tbody>
             </table>

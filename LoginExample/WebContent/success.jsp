@@ -5,7 +5,7 @@ You are not logged in<br/>
 <a href="index.jsp">Please Login</a>
 <%} else {
 %>
-Welcome <%=session.getAttribute("username")%>
+Hallo <%=session.getAttribute("username")%>!
 <a href='logout.jsp'>Log out</a>
 <%
     }
