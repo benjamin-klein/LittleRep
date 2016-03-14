@@ -37,10 +37,10 @@
                         <td><input type="password" name="password" value="" /></td>
                     </tr>
                     <tr>
-                        <td><input type="submit" value="Absenden" /></td>
+                        <td><input type="submit" value="Bestätigen" /></td>
                     </tr>
                     <tr>
-                        <td colspan="2">Bereits registriert?<a href="index.jsp">Hier anmelden</a></td>
+                        <td colspan="2">Bereits registriert? <a href="index.jsp">Hier anmelden</a></td>
                     </tr>
                 </tbody>
             </table>

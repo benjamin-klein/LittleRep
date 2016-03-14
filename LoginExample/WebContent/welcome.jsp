@@ -1,2 +1,2 @@
-Registration is Successful.
-Please Login Here <a href='index.jsp'>Go to Login</a>
+Ihr Benutzerkonto wurde erfolgreich angelegt!
+<a href='index.jsp'>Zum Login</a>
