@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Registration Page</title>
+<title>Registrierung</title>
 </head>
 <body>
         <form method="post" action="registration.jsp">
@@ -40,7 +40,7 @@
                         <td><input type="submit" value="Bestätigen" /></td>
                     </tr>
                     <tr>
-                        <td colspan="2">Bereits registriert? <a href="index.jsp">Hier anmelden</a></td>
+                        <td colspan="2">Bereits registriert? <a href="index.jsp">Zum Login</a></td>
                     </tr>
                 </tbody>
             </table>
