@@ -9,7 +9,7 @@
 <body>
         <form method="post" action="registration.jsp">
             <center>
-            <table border="1" width="30%" cellpadding="5" bgcolor="pink">
+            <table border="1" width="30%" cellpadding="5" bgcolor="orange">
                 <thead>
                     <tr>
                         <th colspan="2">Registrierung</th>

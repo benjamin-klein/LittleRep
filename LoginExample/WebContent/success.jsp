@@ -7,6 +7,9 @@ Sie sind nicht eingeloggt.<br/>
 %>
 Hallo <%=session.getAttribute("username")%>!
 <a href='logout.jsp'>Ausloggen</a>
+
+<a href="insertpage.jsp">Fahrt anbieten</a>
+
 <%
     }
 %>
@@ -30,7 +33,7 @@ Hallo <%=session.getAttribute("username")%>!
     sSql   = request.getParameter( "prmSql" );
     if( null != sTable && 0 <  sTable.length() &&
        (null == sSql   || 0 == sSql.length())  )
-      sSql = "SELECT * FROM " + sTable;
+      sSql = "SELECT USER_NAME, Abfahrtsort, Ankunftsort, Datum, Sitzplaetze  FROM " + sTable;
   }
 %>
   
